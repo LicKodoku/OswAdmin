@@ -1,0 +1,9 @@
+User (id_user, nombre_user, email)
+
+Proyecto (Id_proye, name_proy, id_user, num_tareas)
+
+Tarea (id_tarea, Id_proy, id_autor, nombre_tarea)
+
+Detalles (id_tarea, status, detalles, fecha_ inicio, fecha_fin_esperada, fecha_fin, responsable)
+
+Propuesta (id_propuesta, id_user, status, detalles, fecha_tantativa_inicio, fecha_tentativa_fin)
